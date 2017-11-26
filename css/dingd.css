@@ -1,0 +1,129 @@
+.dd-nav {
+  height: 50px;
+  background-color: #08BCD3;
+  position: relative;
+}
+.dd-nav a {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/dingdan/Screenshot_2017-10-25-14-52-52_03.png);
+  background-size: 100% 100%;
+}
+.dd-nav h3 {
+  text-align: center;
+  line-height: 50px;
+  color: white;
+}
+.dd-nav dl {
+  width: 20%;
+  height: 85%;
+  padding: 0;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.dd-nav dl dd {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.dd-nav dl dd img {
+  height: 50%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.dd-ad {
+  height: 250px;
+  background-image: url(../images/dingdan/Screenshot_2017-10-25-14-52-52_12.png);
+  background-size: 100% 100%;
+}
+body {
+  background-color: #08BCD3;
+}
+.search {
+  width: 95%;
+  margin: 0 auto;
+  height: 40px;
+  background-color: white;
+  margin-top: 5px;
+}
+.search img {
+  height: 60%;
+  float: left;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.search a {
+  line-height: 40px;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.search span {
+  margin-top: 10px;
+  float: right;
+}
+.next {
+  width: 95%;
+  margin: 20px auto;
+  height: 20px;
+  position: relative;
+}
+.next h6 {
+  text-align: center;
+  color: #44919B;
+  font-size: 18px;
+}
+.next span,
+.next b {
+  width: 30%;
+  height: 50%;
+  border-bottom: 1px solid #44919B;
+}
+.next span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.next b {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.dingd-block {
+  width: 95%;
+  margin: 0 auto;
+}
+.dingd-block img {
+  width: 100%;
+  margin-bottom: 2%;
+}
+.dingd-block dl {
+  width: 100%;
+}
+.dingd-block dl dt {
+  width: 49%;
+  margin-bottom: 20px;
+  float: left;
+}
+.dingd-block dl dt img {
+  width: 100%;
+}
+.dingd-block dl dd {
+  width: 49%!important;
+  float: right;
+  margin-bottom: 1%;
+}
+.dingd-block dl dd img {
+  width: 100%;
+}

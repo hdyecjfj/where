@@ -1,0 +1,568 @@
+.header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  padding: 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  justify-content: space-between;
+}
+.header img {
+  height: 80%;
+}
+.header .img {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+}
+.header .img img {
+  height: 80%;
+  margin: 3px 0 0 4px;
+}
+.header .search {
+  width: 70%;
+  height: 90%;
+  border: 1px solid #33A5B3;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .search img {
+  height: 50%;
+}
+.header .search input {
+  margin: 5px 0 0 0 ;
+  width: 80%;
+  height: 80%;
+  border: none;
+}
+.header-on {
+  background-color: white;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.index-block .index-block-box {
+  width: 100%;
+  height: 110px;
+  margin: 10px auto;
+}
+.index-block .index-block-box dl {
+  width: 100%;
+  height: 110px;
+}
+.index-block .index-block-box dl dt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF5555;
+  float: left;
+  width: 33%;
+  height: 100%;
+  text-align: center;
+}
+.index-block .index-block-box dl dt img {
+  height: 80%;
+}
+.index-block .index-block-box dl dd {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF5555;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 32%;
+  height: 48%;
+}
+.index-block .index-block-box dl dd:nth-child(3) {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.index-block .index-block-box dl dd:nth-child(5) {
+  margin-right: 5px;
+}
+.index-block .index-block-box dl dd img {
+  width: 100%;
+  height: 100%;
+}
+.index-block .ariplay dl dd {
+  background-color: #03A9F5;
+}
+.index-block .ariplay dl dt {
+  background-color: #03A9F5;
+}
+.index-block .travel dl dd {
+  background-color: #7EB53D;
+}
+.index-block .travel dl dt {
+  background-color: #7EB53D;
+}
+.index-block .cai {
+  height: 55px;
+}
+.index-block .cai dl {
+  height: 55px;
+}
+.index-block .cai dl dt {
+  height: 100%;
+  font-size: 17px;
+  color: white;
+  margin-right: 5px;
+  background-color: #FF9700;
+}
+.index-block .cai dl dd {
+  height: 100%;
+  background-color: #FF9700;
+}
+.line {
+  width: 100%;
+  height: 10px;
+  background-color: #F1F1F1;
+}
+.hot {
+  width: 100%;
+  height: 300px;
+}
+.hot ul {
+  margin-top: 10px;
+}
+.hot ul li {
+  width: 33.3%;
+  height: 110px;
+  float: left;
+}
+.hot ul li img {
+  width: 100%;
+  height: 100%;
+}
+.hot-title {
+  height: 50px;
+  font-family: blod;
+}
+.hot-title .hot-title-left {
+  padding-top: 5px;
+  height: 50px;
+  width: 75%;
+  float: left;
+}
+.hot-title .hot-title-left span {
+  line-height: 30px;
+  font-size: 19px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  height: 30px;
+  color: black;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  border-left: 3px solid #03A9F5;
+}
+.hot-title .hot-title-left p {
+  width: 100%;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.hot-title .hot-title-left img {
+  width: 29px;
+  height: 29px;
+  float: left;
+  margin: 5px;
+}
+.hot-title .hot-title-right {
+  float: right;
+  width: 25%;
+  height: 100%;
+}
+.hot-title .hot-title-right h5 {
+  float: right;
+  line-height: 50px;
+}
+.qianz {
+  width: 100%;
+  height: 70px;
+  padding-top: 15px;
+}
+.qianz dl {
+  width: 100%;
+  height: 100%;
+}
+.qianz dl dd {
+  width: 20%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+}
+.qianz dl dd img {
+  width: 25px;
+  height: 30px;
+}
+.ad-tong {
+  height: 285px;
+  margin-bottom: 10px;
+}
+.ad-tong dl {
+  height: 225px;
+}
+.ad-tong dl dd {
+  width: 50%;
+  height: 80px;
+  float: left;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ad-tong dl dd img {
+  width: 85%;
+  height: 100%;
+}
+.ad-tong dl dd:nth-child(1) {
+  height: 160px;
+  border: none;
+}
+.ad-tong dl dd:nth-child(1) img {
+  width: 100%;
+}
+.ad-tong dl dd:nth-child(2) {
+  border-bottom: none;
+  border-top: none;
+}
+.ad-tong dl dd:nth-child(4) {
+  border-right: none;
+}
+.ad-tong dl dd:nth-child(4) img {
+  width: 80%;
+  height: 45%;
+}
+.ad-tong dl dd:nth-child(5) {
+  border-top: none;
+}
+.ad-tong dl dd:nth-child(5) img {
+  width: 80%;
+  height: 45%;
+}
+.ad-tong dl dt {
+  width: 100%;
+  height: 40px;
+  float: left;
+}
+.ad-tong dl dt img {
+  width: 25%;
+  height: 68%;
+  margin-top: 10px;
+}
+.ad-tong dl dt span {
+  width: 70%;
+  height: 100%;
+  color: black;
+  display: block;
+  float: right;
+  font-size: 13px;
+  line-height: 40px;
+}
+.index-ad {
+  height: 125px;
+  width: 100%;
+  background: url(../images/index/Screenshot_2017-10-25-14-52-08_02.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.index-ad a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.index-ad.on {
+  display: none;
+}
+.index-gz {
+  height: 280px;
+}
+.index-gz .gz-title {
+  height: 50px;
+}
+.index-gz .gz-title img {
+  height: 50%;
+  float: left;
+  margin: 2% 1% 0 1%;
+}
+.index-gz .gz-title h3 {
+  line-height: 50px;
+  color: black;
+  float: left;
+  font-size: 19px;
+  font-weight: bold;
+}
+.index-gz .gz-title h5 {
+  float: right;
+  line-height: 50px;
+}
+.index-gz dl {
+  height: 350px;
+}
+.index-gz dl dd {
+  width: 50%;
+  float: left;
+}
+.index-gz dl dd img {
+  width: 99%;
+}
+.wanttogo {
+  height: 450px;
+}
+.wanttogo .want-title {
+  height: 50px;
+}
+.wanttogo .want-title img {
+  width: 29px;
+  height: 29px;
+  margin: 10px 5px;
+  float: left;
+}
+.wanttogo .want-title h4 {
+  color: black;
+  font-size: 19px;
+  font-family: blod;
+  float: left;
+  line-height: 50px;
+}
+.wanttogo ul {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  border-bottom: 1px solid #F3F3F3;
+}
+.wanttogo ul li {
+  float: left;
+  width: 33%;
+  height: 100%;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+}
+.wanttogo ul li b {
+  width: 1px;
+  height: 20px;
+  border-left: 1px solid #F5F5F5;
+  float: right;
+}
+.wanttogo ul .on {
+  color: #00BCD5;
+  border-bottom: 4px solid #00BCD5;
+}
+.wanttogo .want-block dl {
+  width: 100%;
+  margin: 5px 0;
+  font-size: 16px;
+  padding: 5px 10px;
+  height: 30px;
+}
+.wanttogo .want-block dl dt {
+  float: left;
+}
+.wanttogo .want-block dl dd {
+  float: right;
+}
+.wanttogo .want-block .want-five {
+  width: 100%;
+  height: 300px;
+}
+.wanttogo .want-block .want-five dl {
+  width: 100%;
+  height: 100%;
+}
+.wanttogo .want-block .want-five dl img {
+  width: 100%;
+  height: 100%;
+}
+.wanttogo .want-block .want-five dl dt {
+  width: 49%;
+  height: 66%;
+  float: left;
+  margin-bottom: 3px;
+}
+.wanttogo .want-block .want-five dl dd {
+  float: right;
+  width: 49%;
+  height: 33%;
+}
+.wanttogo .want-block .want-five dl dd:nth-child(2) {
+  margin-bottom: 2px;
+}
+.wanttogo .want-block .want-five dl dd:nth-child(5) {
+  float: left;
+}
+.hot-zt {
+  height: 240px;
+}
+.hot-zt .hot-title-left span {
+  border: none;
+  margin-top: 3px;
+}
+.hot-zt .hot-title-left img {
+  margin-left: 6px;
+}
+.hot-zt .hot-zt-block {
+  width: 100%;
+}
+.hot-zt .hot-zt-block dl {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.hot-zt .hot-zt-block dd {
+  width: 33%;
+}
+.hot-zt .hot-zt-block dd img {
+  width: 100%;
+  height: 60%;
+  margin-bottom: 10px;
+}
+.hot-zt .hot-zt-block dd span {
+  width: 100%;
+  text-align: center;
+}
+.hot-zt .hot-zt-block dd h4 {
+  width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+.index-travel {
+  height: 520px;
+}
+.index-travel ul {
+  width: 100%;
+  height: 50px;
+}
+.index-travel ul li {
+  width: 50%;
+  height: 100%;
+  float: left;
+  line-height: 50px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.index-travel ul .on {
+  border-bottom: 3px solid #00BCD5;
+}
+.index-travel .yuanblo {
+  width: 100%;
+  height: 30px;
+}
+.index-travel .yuanblo ul {
+  margin: 5px 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.index-travel .yuanblo ul li {
+  width: 15%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+}
+.index-travel .yuanblo ul li.show {
+  color: #00BCD5;
+  border: 1px solid #00BCD5;
+}
+.index-travel .xuanz {
+  width: 100%;
+  height: 30px;
+}
+.index-travel .xuanz p {
+  margin: 8px 0 5px 10px;
+  height: 20px;
+  float: left;
+  color: #666666;
+}
+.index-travel .xuanz span {
+  float: right;
+  margin: 8px 5px 5px 0;
+}
+.index-travel .travel-block {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.index-travel .travel-block .travel-block-box {
+  width: 49%;
+  height: 200px;
+}
+.index-travel .travel-block .travel-block-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.index-travel .travel-block .travel-block-box h5 {
+  color: black;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.index-travel .travel-block .travel-block-box p {
+  font-size: 13px;
+  float: left;
+}
+.index-travel .travel-block .travel-block-box p span {
+  color: orangered;
+  float: left;
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+.index-travel .travel-block .travel-block-box a {
+  float: right;
+  margin: 0 10px 5px 0;
+  font-size: 13px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+.footer dl {
+  width: 100%;
+  height: 100%;
+}
+.footer dl dd {
+  width: 20%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+}
+.footer dl dd img {
+  height: 50%;
+  margin: 5px 0;
+}
+.footer dl dd:nth-child(1) {
+  color: #00BCD5;
+}
+.kong {
+  width: 100%;
+  height: 200px;
+  background-color: #F1F1F1;
+}
